@@ -2590,7 +2590,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		positiion: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2866,6 +2866,10 @@
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
+		}
+
+		#header .logo:hover {
+			opacity: 0.3;
 		}
 
 			#header .logo > * {
