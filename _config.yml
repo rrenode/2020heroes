@@ -100,5 +100,5 @@ theme: phantom
 deploy:
   type: git
   repo: https://github.com/rrenode/2020heroes
-  branch: master
+  branch: gh-pages
   message: 404 is found! (The paradox)
