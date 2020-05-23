@@ -12,14 +12,13 @@
     
         <meta name="description" content=".container {
         position: relative;
-        width: 50%;
+        width: 100%;
         }
 
     .image {
         opacity: 1;
         display: block;
-        width: 100%;
-">
+        width: auto;">
     
 
     <!--Author-->
@@ -29,7 +28,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="We&#39;re Sorry, 404 Page Not Found!"/>
+        <meta property="og:title" content="Error 404, Page Not Found!"/>
     
 
     <!--Open Graph Site Name-->
@@ -42,7 +41,7 @@
 
     <!-- Title -->
     
-    <title>We&#39;re Sorry, 404 Page Not Found! - heroes of 2020</title>
+    <title>Error 404, Page Not Found! - heroes of 2020</title>
 
     <!-- Custom CSS -->
     
@@ -127,7 +126,7 @@
                 <!-- Main Content -->
                 
 
-    <h1>We're Sorry, 404 Page Not Found!</h1>
+    <h1>Error 404, Page Not Found!</h1>
 
 
 
@@ -138,14 +137,14 @@
 <style>
     .container {
         position: relative;
-        width: 50%;
+        width: 100%;
         }
 
     .image {
         opacity: 1;
         display: block;
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 512px;
         transition: .5s ease;
         backface-visibility: hidden;
         background-color: rgb(217, 37, 94);
@@ -173,31 +172,46 @@
     .text {
         color: #585858;
         font-size: 32px;
-        padding: 16px 32px;
+        padding: auto;
     }
 
     a {
         color: #585858;
     }
 
-.container-half {
-  display: flex;
-}
+    .container-half {
+        display: flex;
+    }
 
-.left-half {
-  flex: 1.5;
-  padding: 1rem;
-}
+    .left-half {
+        flex: 1.5;
+        padding: 1rem;
+    }
 
-.right-half {
-  flex: 1;
-  padding: 1rem;
-}
+    .right-half {
+        flex: 1;
+        padding: 1rem;
+    }
 
+    .mobile {
+        content: none;
+    }
+
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (max-width: 1295px) {
+        .container-half {
+            display: none;
+        }
+
+        .mobile {
+            conent: normal;
+        }
+
+    }
 </style>
 <div class="container-half">
     <div class="left-half">
-        <h3>We've seemed to have lost our brain... <br /> If you find it, please click it!</h3>
+        <h2>It seems we've misplaced <br /> our brain... <br /> <br /> If you find it, please click it!</h2>
     </div>
     <div class="right-half">
         <div class="container">
@@ -206,6 +220,9 @@
                 <a href="history.back()"><div class="text">There it is!</div></a>
             </div>
         </div>
+    </div>
+    <div class="mobile">
+        <img class="image" src="https://rrenode.github.io/2020heroes/images/404.gif" onclick="history.back()" alt="Heroes Gif">
     </div>
 </div>
 
