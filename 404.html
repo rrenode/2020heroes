@@ -28,7 +28,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Error 404, Page Not Found!"/>
+        <meta property="og:title" content="Appears an error occured!"/>
     
 
     <!--Open Graph Site Name-->
@@ -41,7 +41,7 @@
 
     <!-- Title -->
     
-    <title>Error 404, Page Not Found! - heroes of 2020</title>
+    <title>Appears an error occured! - heroes of 2020</title>
 
     <!-- Custom CSS -->
     
@@ -126,7 +126,7 @@
                 <!-- Main Content -->
                 
 
-    <h1>Error 404, Page Not Found!</h1>
+    <h1>Appears an error occured!</h1>
 
 
 
@@ -194,7 +194,8 @@
     }
 
     .mobile {
-        content: none;
+        display: none;
+        width: 100%;
     }
 
     /* Medium devices (landscape tablets, 768px and up) */
@@ -204,7 +205,22 @@
         }
 
         .mobile {
-            conent: normal;
+            display: inherit;
+            margin: auto;
+        }
+
+        .image {
+            height: 100%;
+        }
+
+        h1 {
+            display: none;
+        }
+
+        .center {
+            margin: auto;
+            padding: 10px;
+            text-align: center;
         }
 
     }
@@ -221,9 +237,12 @@
             </div>
         </div>
     </div>
-    <div class="mobile">
-        <img class="image" src="https://rrenode.github.io/2020heroes/images/404.gif" onclick="history.back()" alt="Heroes Gif">
-    </div>
+</div>
+
+<div class="mobile center">
+        <h2>Appears an error occured...</h2>
+        <img class="center image" src="https://rrenode.github.io/2020heroes/images/404.gif" onclick="history.back()" alt="Heroes Gif">
+        <h2 style="padding-top: 15px;">Tap our heroes to be saved</h2>
 </div>
 
 <!-- Comments -->
