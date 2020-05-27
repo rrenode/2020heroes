@@ -29,7 +29,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: REAMDE.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -101,4 +101,4 @@ deploy:
   type: git
   repo: https://github.com/rrenode/2020heroes
   branch: gh-pages
-  message:  Meta Tags and README.md[1st Edition]
+  message:  Meta Tags and README.md[Finished]
