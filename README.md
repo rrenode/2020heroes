@@ -14,7 +14,7 @@ To put it short, anyone who has contributed in helping the efforts of COVID 19 r
 # How to dedicate a post
 
 Dedicating a post is quite simple! 
-1. Follow the [Creation Guide]()
+1. Follow the [Creation Guide](https://github.com/rrenode/2020heroes/blob/master/Post-Creation.md)
 2. Upload your markdown file (.md) to the Google Form [dedicate-post-form]
 
 There's obviously some steps in-between that, but I've attempted to make it as easy as possible. If you need any help, [create an issue on Github](https://github.com/rrenode/2020heroes/issues/new) and add the label "Upload Help".
