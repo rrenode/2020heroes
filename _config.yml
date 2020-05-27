@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: heroes of 2020
+title: Heroes of 2020
 subtitle: ''
 description: ''
 keywords:
@@ -101,4 +101,4 @@ deploy:
   type: git
   repo: https://github.com/rrenode/2020heroes
   branch: gh-pages
-  message: 404 is found! (The paradox)
+  message:  Meta Tags and README.md[1st Edition]

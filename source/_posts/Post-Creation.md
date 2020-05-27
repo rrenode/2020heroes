@@ -10,7 +10,7 @@ cover_detail: "https://p1.pxfuel.com/preview/950/271/626/doctor-hospital-health-
 hero_name: "John Doe" # Name of the hero
 author_name: "Jim Dohn" # Your name or who wrote it
 hero_affiliation: "Random Hospital" # Where they work, if part of story
-hero_type: "Healthcare Worker" # See example types in the Readme.md
+hero_type: "Healthcare Worker" # See example types below
 hero_location: "State/Provence, <br /> Country or similar <br /> Country" # General location, NOT ADDRESS. Only if hero agrees!
 
 # Social Media of Hero
@@ -19,6 +19,8 @@ hero_instagram_url: "" # Link to Instagram
 hero_twitter_url: "" # Link to Twitter
 hero_facebook_url: "" # Link to Facebook
 hero_github_url: "" # Link to GitHub
+
+hidden: true
 ---
 # Introduction
 
@@ -29,6 +31,17 @@ Welcome to Heroes 2020! I'm excited for you to dedicate a story for yourself or 
 The section at the top of the document is what is called [front-matter](https://hexo.io/docs/front-matter.html) and is written in [YAML](https://en.wikipedia.org/wiki/YAML). You will need to edit each value, the part after the colon (:). Each value should be placed inside of commas ("{your value}"). 
 
 Each varible, the part before the colon, has its own description to tell you what it is. Follow each description and fill-in as needed. Certain values do not need to be entered and will either: not show on the final product or, be replaced by a defualt selection.
+
+## Hero Types
+
+I'm not too happy with using the word "type" for the heros, but I couldn't think of a better word. Hero Types are a way to categorize heros based on occupation and/or size. At first, I used occupation to describe it, but it also does not describe what these words mean in this context.
+
+Examples include:
+- Healthcare Workes
+- First Responders
+- Businesses
+- Groups/Families
+- The Average Joe
 
 ***
 
