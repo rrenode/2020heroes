@@ -22,7 +22,7 @@ hero_github_url: "" # Link to GitHub
 ---
 # Introduction
 
-Welcome to Heroes 2020! I'm excited for you to dedicate a story for yourself or others. This example post should hopefully give you an enough understanding of Markdown language to make a simple document.
+Welcome to Heroes 2020! I'm excited for you to dedicate a story for yourself or others. This example post should hopefully give you an enough understanding of Markdown to make a simple document. Feel free to download this and use it as sort-of template.
 
 # YAML and Front-matter
 
